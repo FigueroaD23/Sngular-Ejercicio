@@ -1,0 +1,27 @@
+{
+  "name": "sngular-ejercicio",
+  "version": "1.0.0",
+  "description": "no-description",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "dev" : "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FigueroaD23/Sngular-Ejercicio.git"
+  },
+  "keywords": [
+    "jest",
+    "JS"
+  ],
+  "author": "Angel Figueroa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FigueroaD23/Sngular-Ejercicio/issues"
+  },
+  "homepage": "https://github.com/FigueroaD23/Sngular-Ejercicio#readme",
+  "devDependencies": {
+    "jest": "^28.1.3"
+  }
+}
