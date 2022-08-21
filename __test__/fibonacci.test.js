@@ -1,8 +1,8 @@
 const MetodosMatematicos = require('../src/metodosClase')
 const objMetodos = new MetodosMatematicos()
 describe("Fibonacci", ()=>{
-    test('Término 10 de la serie fibonacci', ()=>{        
-        expect(objMetodos.fibonacci(10)).toBe(34)
+    test('Término -10 de la serie fibonacci', ()=>{        
+        expect(objMetodos.fibonacci(-10)).toBe("ERROR")
     })      
 })
 describe("Término 15 de la serie fibonacci", ()=>{

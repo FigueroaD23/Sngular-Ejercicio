@@ -1,8 +1,8 @@
 const MetodosMatematicos = require('../src/metodosClase')
 const objMetodos = new MetodosMatematicos()
 describe("Triangulares", ()=>{
-    test('Término 10 de los numeros triangulares', ()=>{        
-        expect(objMetodos.numTriangulares(10)).toBe(55)
+    test('Término -10 de los numeros triangulares', ()=>{        
+        expect(objMetodos.numTriangulares(-10)).toBe("ERROR")
     })      
 })
 describe("Término 15 de los numeros triangulares", ()=>{

@@ -1,8 +1,8 @@
 const MetodosMatematicos = require('../src/metodosClase')
 const objMetodos = new MetodosMatematicos()
 describe("Numeros primos", ()=>{
-    test('Término 10 de los numeros primos', ()=>{        
-        expect(objMetodos.numPrimos(10)).toBe(29)
+    test('Término -10 de los numeros primos', ()=>{        
+        expect(objMetodos.numPrimos(-10)).toBe("ERROR")
     })      
 })
 describe("Término 15 de los numeros primos", ()=>{

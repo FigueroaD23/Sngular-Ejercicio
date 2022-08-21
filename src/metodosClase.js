@@ -1,6 +1,7 @@
 class MetodosMatematicos {
     fibonacci(n){        
-        let fibonacci = [0,1];        
+        let fibonacci = [0,1];   
+        if(n<0) return "ERROR"     
         if(n == 1 ) return 1
         if(n == 0) return "La sucesión empieza en 1"
         for (let i = 2; fibonacci.length<=n; i++) {
@@ -10,6 +11,7 @@ class MetodosMatematicos {
     }
 
     numPrimos (n){        
+        if(n<0) return "ERROR"     
         if(n == 0) return "La sucesión empieza en 1"
         if(n == 1 ) return 2
         let nPrimos = []
@@ -30,6 +32,7 @@ class MetodosMatematicos {
     }
 
     numTriangulares(n){        
+        if(n<0) return "ERROR"     
         if(n == 1 ) return 1
         if(n == 0) return "La sucesión empieza en 1"
         let nTriangulares = [0,1]
